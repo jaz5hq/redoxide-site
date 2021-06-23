@@ -6,12 +6,12 @@ module.exports = {
   title: 'Redoxide',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.redoxide.dev',
-  baseUrl: '/',
+  baseUrl: '/redoxide-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jaz5hq', // Usually your GitHub org/user name.
+  projectName: 'redoxide-site', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Redoxide',
