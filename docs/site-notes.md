@@ -1,3 +1,10 @@
+---
+slug: site-notes
+title: Site Notes
+keywords:  
+  - docusaurus
+---
+
 # Site Development
 
 Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)**.
