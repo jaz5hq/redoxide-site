@@ -6,7 +6,7 @@ module.exports = {
   title: 'Redoxide',
   tagline: 'Dinosaurs are cool',
   url: 'https://www.redoxide.dev',
-  baseUrl: '/redoxide-site/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -22,7 +22,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'introduction',
           position: 'left',
           label: 'Codebase',
         },
