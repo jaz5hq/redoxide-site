@@ -8,7 +8,11 @@ author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 tags: [javascript, guid]
 ---
 
-Here is 
+The code below can produce GUID (aka UUID) with properties that conform the standard format: 
+
+- format: 00000000-0000-0000-0000-000000000000 (128 bits, each digit is hexadecimal)
+
+- lower case
 
 ```js title="Guid.js"
 class Guid {
