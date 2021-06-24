@@ -1,10 +1,8 @@
 # Site Development
 
-Please refer to **[official Docusaurus documentation](https://docusaurus.io/docs/deployment#deploying-to-github-pages)**.
+Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)**.
 
-#### Command for deployment to Github Pages
-
-##### Manual Deployment:
+#### Manual Deployment to Github Pages:
 1. Remember to install yarn
 2. If you have set custom domain, something to take note:  
 - remember to check your baseUrl in docusaurus.config.js. It should be "/".

@@ -1,11 +1,9 @@
 ---
 slug: guid-generator
 title: Guid Generator
-author: Ronan Soo
-author_title: Full Stack Engineer
-author_url: https://github.com/yangshun
-author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-tags: [javascript, guid]
+keywords:  
+  - javascript
+  - guid
 ---
 
 The code below can produce GUID (aka UUID) with properties that conform the standard format: 
