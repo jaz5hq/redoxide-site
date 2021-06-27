@@ -10,11 +10,12 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
   organizationName: 'jaz5hq', // Usually your GitHub org/user name.
   projectName: 'redoxide-site', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Redoxide',
+      title: 'Redoxide\'s Workshop',
       logo: {
         alt: 'Site Logo',
         src: 'img/logo.svg',
@@ -86,11 +87,17 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Redoxide's Workshop. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    gtag: {
+      // You can also use your "G-" Measurement ID here.
+      trackingID: 'G-QRCBYQEYP8',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
     },
   },
   presets: [
@@ -99,20 +106,17 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          showLastUpdateTime: true
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {        
+          changefreq: 'weekly',
+          priority: 0.5,
         },
       },
     ],
