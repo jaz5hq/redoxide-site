@@ -8,14 +8,15 @@ keywords:
 
 # Site Development
 
-Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)**.
-
 ## Markdown Features
 - Please use the markdown headers by order like a tree list starting with h2 as followed: h2(##) > h3 > h4 > h5 > h6.
 - It will generate a content table on right side. 
 - Bad Example： h2 > h4 will cause incomplete content table. 
 
 ## Manual Deployment to Github Pages:
+
+Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)**.
+
 1. Remember to install yarn
 2. Remember to set "GIT_USER" in environment variables.
 3. If you have set custom domain, something to take note:  
