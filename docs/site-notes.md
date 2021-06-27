@@ -13,7 +13,7 @@ Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](h
 ## Markdown Features
 - Please use the markdown headers by order like a tree list starting with h2 as followed: h2(##) > h3 > h4 > h5 > h6.
 - It will generate a content table on right side. 
-- Failure： h2 > h4 will cause incomplete content table. 
+- Bad Example： h2 > h4 will cause incomplete content table. 
 
 ## Manual Deployment to Github Pages:
 1. Remember to install yarn
