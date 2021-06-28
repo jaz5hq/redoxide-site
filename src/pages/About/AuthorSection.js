@@ -5,7 +5,7 @@ import Section from '../../components/Section';
 import FlipRotateComponent from '../../components/FlipRotateComponent';
 
 function AuthorSection() {
-    const { isDarkTheme, setLightTheme, setDarkTheme } = useThemeContext();
+    const { isDarkTheme } = useThemeContext();
     return (
         <Section>
             <div className="col col--12">

@@ -28,13 +28,13 @@ module.exports = {
           label: 'Codebase',
         },
         {
-          to: '/blog', 
-          label: 'Blog', 
+          to: '/blog',
+          label: 'Blog',
           position: 'left'
         },
         {
-          to: '/about', 
-          label: 'About', 
+          to: '/about',
+          label: 'About',
           position: 'left'
         },
         {
@@ -111,10 +111,16 @@ module.exports = {
         blog: {
           showReadingTime: true
         },
+        pages: {
+          include: [
+            '**/index.js',
+            '**/*.{md,mdx}'
+          ],
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        sitemap: {        
+        sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
         },
