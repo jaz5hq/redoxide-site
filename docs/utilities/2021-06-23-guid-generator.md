@@ -1,9 +1,11 @@
 ---
 slug: guid-generator
 title: Guid Generator
+description: Guid Generator
 keywords:  
   - javascript
   - guid
+  - generator
 ---
 
 The code below can produce GUID (aka UUID) with properties that conform the standard format: 
