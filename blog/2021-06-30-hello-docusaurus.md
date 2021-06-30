@@ -15,6 +15,6 @@ At the same time, I feel that the coding notes that I have written in markdown l
 
 <!--truncate-->
 
-Having a lot of trivial information in my coding notes. I want to share or put here to keep a reference. Yes, I am forgetful person. Sometimes I also lost my reasoning why I came to this decision.. This can probably help me keep tracked of this.
+Having a lot of trivial information in my coding notes. I want to share or put here to keep a reference. Yes, I am forgetful person. Sometimes I also lost my reasoning why I came to this decision for the implementation. This can probably help me keep tracked of this.
 
 Hope these notes can help you. :)

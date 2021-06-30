@@ -22,6 +22,7 @@ Please refer to **official Docusaurus documentation - [Deploy to GitHub Pages](h
 3. If you have set custom domain, something to take note:  
 - remember to check your baseUrl in docusaurus.config.js. It should be "/".
 - create a **plain text file** called "CNAME" (yes, no extension) in the **static** folder with your domain in it.
+4. After deploying to GitHub Pages, please ensure it points to branch "gh-pages" in the settings.
 
 Enter following command in Command Prompt or PowerShell.
 
